@@ -1,0 +1,6 @@
+--prep files
+--hdfs dfs -mkdir -p user/cloudera/project/yelp_data
+--hdfs dfs -copyFromLocal /home/cloudera/project/week1/*.json user/cloudera/project/yelp_data
+
+--check data
+--hdfs dfs -ls cloudera/project/yelp_data
